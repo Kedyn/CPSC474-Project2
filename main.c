@@ -107,7 +107,7 @@ int main(int argc, char *argv[])
 				printf("Rank: %d is now leader.\n", rank);
 			}
 
-			if (ACTIVES[rank] && round_msgs == 2)
+			if (ACTIVES[rank] && round_msgs == 2 && recv_msg[2] != rank)
 			{
 				send_msg[1]++; // increment round
 
@@ -117,6 +117,8 @@ int main(int argc, char *argv[])
 				MPI_Send(&send_msg, 3, MPI_INT, NEIGHBORS[rank][1], 1, MPI_COMM_WORLD); // send to right neighbor
 
 				round_msgs = 0;
+
+				send_msg[2] = recv_msg[2];
 			}
 		}
 		else
@@ -125,21 +127,21 @@ int main(int argc, char *argv[])
 			{
 				if (status.MPI_SOURCE == NEIGHBORS[rank][0])
 				{
-					if (recv_msg[2] != NEIGHBORS[rank][1])
-					{
+					//if (recv_msg[2] != NEIGHBORS[rank][1])
+					//{
 						printf("Rank: %d Passing msg to: %d.\n", rank, NEIGHBORS[rank][1]);
 
 						MPI_Send(&recv_msg, 3, MPI_INT, NEIGHBORS[rank][1], 1, MPI_COMM_WORLD); // send to right neighbor
-					}
+					//}
 				}
 				else
 				{
-					if (recv_msg[2] != NEIGHBORS[rank][0])
-					{
+					//if (recv_msg[2] != NEIGHBORS[rank][0])
+					//{
 						printf("Rank: %d Passing msg to: %d.\n", rank, NEIGHBORS[rank][0]);
 
 						MPI_Send(&recv_msg, 3, MPI_INT, NEIGHBORS[rank][0], 1, MPI_COMM_WORLD); // send to left neighbor
-					}
+					//}
 				}
 
 				if (recv_msg[2] != -1)
