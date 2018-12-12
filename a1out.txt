@@ -1,0 +1,230 @@
+Rank: 9 Sending msg to 12 and 3.
+Rank: 5 Sending msg to 13 and 8.
+Rank: 12 Receive msg from 9: (9, 1, -1).
+Rank: 12 Passing msg to: 4.
+Rank: 8 Receive msg from 5: (5, 1, -1).
+Rank: 13 Receive msg from 5: (5, 1, -1).
+Rank: 13 Passing msg to: 0.
+Rank: 4 Sending msg to 11 and 12.
+Rank: 4 Receive msg from 12: (9, 1, -1).
+Rank: 4 is now passive because of 9.
+Rank: 11 Sending msg to 2 and 4.
+Rank: 8 Passing msg to: 7.
+Rank: 7 Receive msg from 8: (5, 1, -1).
+Rank: 7 Passing msg to: 2.
+Rank: 12 Receive msg from 4: (4, 1, -1).
+Rank: 12 Passing msg to: 9.
+Rank: 3 Sending msg to 9 and 6.
+Rank: 3 Receive msg from 9: (9, 1, -1).
+Rank: 3 is now passive because of 9.
+Rank: 2 Receive msg from 7: (5, 1, -1).
+Rank: 2 Passing msg to: 11.
+Rank: 11 Receive msg from 2: (5, 1, -1).
+Rank: 11 Receive msg from 4: (4, 1, -1).
+Rank: 11 Sending msg to 2 and 4.
+Rank: 0 Receive msg from 13: (5, 1, -1).
+Rank: 0 Passing msg to: 10.
+Rank: 2 Receive msg from 11: (11, 1, -1).
+Rank: 2 Passing msg to: 7.
+Rank: 2 Receive msg from 11: (11, 2, -1).
+Rank: 2 Passing msg to: 7.
+Rank: 9 Receive msg from 12: (4, 1, -1).
+Rank: 9 Receive msg from 3: (3, 1, -1).
+Rank: 9 Sending msg to 12 and 3.
+Rank: 6 Receive msg from 3: (3, 1, -1).
+Rank: 6 Passing msg to: 1.
+Rank: 12 Receive msg from 9: (9, 2, -1).
+Rank: 12 Passing msg to: 4.
+Rank: 7 Receive msg from 2: (11, 1, -1).
+Rank: 7 Passing msg to: 8.
+Rank: 7 Receive msg from 2: (11, 2, -1).
+Rank: 7 Passing msg to: 8.
+Rank: 4 Receive msg from 11: (11, 1, -1).
+Rank: 4 Receive msg from 11: (11, 2, -1).
+Rank: 4 Passing msg to: 12.
+Rank: 4 Receive msg from 12: (9, 2, -1).
+Rank: 4 Passing msg to: 11.
+Rank: 8 Receive msg from 7: (11, 1, -1).
+Rank: 8 Passing msg to: 5.
+Rank: 8 Receive msg from 7: (11, 2, -1).
+Rank: 8 Passing msg to: 5.
+Rank: 10 Receive msg from 0: (5, 1, -1).
+Rank: 10 Passing msg to: 1.
+Rank: 11 Receive msg from 4: (9, 2, -1).
+Rank: 1 Receive msg from 6: (3, 1, -1).
+Rank: 1 Passing msg to: 10.
+Rank: 1 Receive msg from 10: (5, 1, -1).
+Rank: 1 Passing msg to: 6.
+Rank: 3 Receive msg from 9: (9, 2, -1).
+Rank: 3 Passing msg to: 6.
+Rank: 6 Receive msg from 1: (5, 1, -1).
+Rank: 6 Passing msg to: 3.
+Rank: 6 Receive msg from 3: (9, 2, -1).
+Rank: 6 Passing msg to: 1.
+Rank: 12 Receive msg from 4: (11, 2, -1).
+Rank: 12 Passing msg to: 9.
+Rank: 5 Receive msg from 8: (11, 1, -1).
+Rank: 5 is now passive because of 11.
+Rank: 5 Receive msg from 8: (11, 2, -1).
+Rank: 5 Passing msg to: 13.
+Rank: 1 Receive msg from 6: (9, 2, -1).
+Rank: 1 Passing msg to: 10.
+Rank: 10 Receive msg from 1: (3, 1, -1).
+Rank: 10 Passing msg to: 0.
+Rank: 10 Receive msg from 1: (9, 2, -1).
+Rank: 10 Passing msg to: 0.
+Rank: 3 Receive msg from 6: (5, 1, -1).
+Rank: 0 Receive msg from 10: (3, 1, -1).
+Rank: 0 Passing msg to: 13.
+Rank: 0 Receive msg from 10: (9, 2, -1).
+Rank: 0 Passing msg to: 13.
+Rank: 9 Receive msg from 12: (11, 2, -1).
+Rank: 9 is now passive because of 11.
+Rank: 13 Receive msg from 0: (3, 1, -1).
+Rank: 13 Passing msg to: 5.
+Rank: 13 Receive msg from 0: (9, 2, -1).
+Rank: 13 Passing msg to: 5.
+Rank: 13 Receive msg from 5: (11, 2, -1).
+Rank: 13 Passing msg to: 0.
+Rank: 0 Receive msg from 13: (11, 2, -1).
+Rank: 0 Passing msg to: 10.
+Rank: 10 Receive msg from 0: (11, 2, -1).
+Rank: 10 Passing msg to: 1.
+Rank: 1 Receive msg from 10: (11, 2, -1).
+Rank: 1 Passing msg to: 6.
+Rank: 5 Receive msg from 13: (3, 1, -1).
+Rank: 5 Receive msg from 13: (9, 2, -1).
+Rank: 5 Passing msg to: 8.
+Rank: 6 Receive msg from 1: (11, 2, -1).
+Rank: 6 Passing msg to: 3.
+Rank: 8 Receive msg from 5: (9, 2, -1).
+Rank: 8 Passing msg to: 7.
+Rank: 3 Receive msg from 6: (11, 2, -1).
+Rank: 3 Passing msg to: 9.
+Rank: 7 Receive msg from 8: (9, 2, -1).
+Rank: 7 Passing msg to: 2.
+Rank: 9 Receive msg from 3: (11, 2, -1).
+Rank: 2 Receive msg from 7: (9, 2, -1).
+Rank: 2 Passing msg to: 11.
+Rank: 11 Receive msg from 2: (9, 2, -1).
+Rank: 11 Sending msg to 2 and 4.
+Rank: 4 Receive msg from 11: (11, 3, -1).
+Rank: 4 Passing msg to: 12.
+Rank: 2 Receive msg from 11: (11, 3, -1).
+Rank: 2 Passing msg to: 7.
+Rank: 7 Receive msg from 2: (11, 3, -1).
+Rank: 7 Passing msg to: 8.
+Rank: 8 Receive msg from 7: (11, 3, -1).
+Rank: 8 Passing msg to: 5.
+Rank: 12 Receive msg from 4: (11, 3, -1).
+Rank: 12 Passing msg to: 9.
+Rank: 5 Receive msg from 8: (11, 3, -1).
+Rank: 5 Passing msg to: 13.
+Rank: 13 Receive msg from 5: (11, 3, -1).
+Rank: 13 Passing msg to: 0.
+Rank: 9 Receive msg from 12: (11, 3, -1).
+Rank: 9 Passing msg to: 3.
+Rank: 0 Receive msg from 13: (11, 3, -1).
+Rank: 0 Passing msg to: 10.
+Rank: 3 Receive msg from 9: (11, 3, -1).
+Rank: 3 Passing msg to: 6.
+Rank: 6 Receive msg from 3: (11, 3, -1).
+Rank: 6 Passing msg to: 1.
+Rank: 10 Receive msg from 0: (11, 3, -1).
+Rank: 10 Passing msg to: 1.
+Rank: 1 Receive msg from 6: (11, 3, -1).
+Rank: 1 Passing msg to: 10.
+Rank: 1 Receive msg from 10: (11, 3, -1).
+Rank: 1 Passing msg to: 6.
+Rank: 6 Receive msg from 1: (11, 3, -1).
+Rank: 6 Passing msg to: 3.
+Rank: 3 Receive msg from 6: (11, 3, -1).
+Rank: 3 Passing msg to: 9.
+Rank: 10 Receive msg from 1: (11, 3, -1).
+Rank: 10 Passing msg to: 0.
+Rank: 9 Receive msg from 3: (11, 3, -1).
+Rank: 9 Passing msg to: 12.
+Rank: 12 Receive msg from 9: (11, 3, -1).
+Rank: 12 Passing msg to: 4.
+Rank: 4 Receive msg from 12: (11, 3, -1).
+Rank: 4 Passing msg to: 11.
+Rank: 0 Receive msg from 10: (11, 3, -1).
+Rank: 0 Passing msg to: 13.
+Rank: 11 Receive msg from 4: (11, 3, -1).
+Rank: 13 Receive msg from 0: (11, 3, -1).
+Rank: 13 Passing msg to: 5.
+Rank: 5 Receive msg from 13: (11, 3, -1).
+Rank: 5 Passing msg to: 8.
+Rank: 8 Receive msg from 5: (11, 3, -1).
+Rank: 8 Passing msg to: 7.
+Rank: 7 Receive msg from 8: (11, 3, -1).
+Rank: 7 Passing msg to: 2.
+Rank: 2 Receive msg from 7: (11, 3, -1).
+Rank: 2 Passing msg to: 11.
+Rank: 11 Receive msg from 2: (11, 3, -1).
+Rank: 11 is now leader.
+Rank: 11 Sending msg to 2 and 4.
+Rank: 2 Receive msg from 11: (11, 4, 11).
+Rank: 2 Passing msg to: 7.
+Rank: 7 Receive msg from 2: (11, 4, 11).
+Rank: 7 Passing msg to: 8.
+Rank: 4 Receive msg from 11: (11, 4, 11).
+Rank: 4 Passing msg to: 12.
+Rank: 8 Receive msg from 7: (11, 4, 11).
+Rank: 8 Passing msg to: 5.
+Rank: 5 Receive msg from 8: (11, 4, 11).
+Rank: 5 Passing msg to: 13.
+Rank: 13 Receive msg from 5: (11, 4, 11).
+Rank: 13 Passing msg to: 0.
+Rank: 12 Receive msg from 4: (11, 4, 11).
+Rank: 12 Passing msg to: 9.
+Rank: 9 Receive msg from 12: (11, 4, 11).
+Rank: 9 Passing msg to: 3.
+Rank: 0 Receive msg from 13: (11, 4, 11).
+Rank: 0 Passing msg to: 10.
+Rank: 3 Receive msg from 9: (11, 4, 11).
+Rank: 3 Passing msg to: 6.
+Rank: 6 Receive msg from 3: (11, 4, 11).
+Rank: 6 Passing msg to: 1.
+Rank: 1 Receive msg from 6: (11, 4, 11).
+Rank: 1 Passing msg to: 10.
+Rank: 10 Receive msg from 0: (11, 4, 11).
+Rank: 10 Passing msg to: 1.
+Rank: 10 Receive msg from 1: (11, 4, 11).
+Rank: 10 Passing msg to: 0.
+Rank: 10 has set 11 as leader.
+Rank: 0 Receive msg from 10: (11, 4, 11).
+Rank: 0 Passing msg to: 13.
+Rank: 0 has set 11 as leader.
+Rank: 1 Receive msg from 10: (11, 4, 11).
+Rank: 1 Passing msg to: 6.
+Rank: 1 has set 11 as leader.
+Rank: 6 Receive msg from 1: (11, 4, 11).
+Rank: 6 Passing msg to: 3.
+Rank: 6 has set 11 as leader.
+Rank: 3 Receive msg from 6: (11, 4, 11).
+Rank: 3 Passing msg to: 9.
+Rank: 3 has set 11 as leader.
+Rank: 9 Receive msg from 3: (11, 4, 11).
+Rank: 9 Passing msg to: 12.
+Rank: 9 has set 11 as leader.
+Rank: 12 Receive msg from 9: (11, 4, 11).
+Rank: 12 Passing msg to: 4.
+Rank: 12 has set 11 as leader.
+Rank: 13 Receive msg from 0: (11, 4, 11).
+Rank: 13 Passing msg to: 5.
+Rank: 13 has set 11 as leader.
+Rank: 5 Receive msg from 13: (11, 4, 11).
+Rank: 5 Passing msg to: 8.
+Rank: 5 has set 11 as leader.
+Rank: 4 Receive msg from 12: (11, 4, 11).
+Rank: 4 has set 11 as leader.
+Rank: 8 Receive msg from 5: (11, 4, 11).
+Rank: 8 Passing msg to: 7.
+Rank: 8 has set 11 as leader.
+Rank: 7 Receive msg from 8: (11, 4, 11).
+Rank: 7 Passing msg to: 2.
+Rank: 7 has set 11 as leader.
+Rank: 2 Receive msg from 7: (11, 4, 11).
+Rank: 2 has set 11 as leader.
+Leader: 11.
