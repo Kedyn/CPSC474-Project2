@@ -17,3 +17,20 @@ We will start by using 5 number of processes, where 0 to 4 are the IDs.
 |     |
 3-----4
 ```
+```
+         00
+        /  \
+      10    13
+     /        \
+   01          05
+  /              \
+06                08
+|                  | 
+03                07
+  \              /
+   09          02
+     \        /
+      12    11
+        \  /
+         04
+```
